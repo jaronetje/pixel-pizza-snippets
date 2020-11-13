@@ -1,0 +1,27 @@
+{
+	"Pixel Pizza Command JS": {
+		"scope": "javascript",
+		"prefix": ["ppcommand", "ppcom"],
+		"body": [
+			"module.exports = {", 
+			"\tname: \"${1:name}\",",
+			"\tdescription: \"${2:description}\",",
+			"\taliases: [${3:\"alias\"}],",
+			"\targs: ${4:false},",
+			"\tminArgs: ${5:0},",
+			"\tmaxArgs: ${6:0},",
+			"\tusage: \"${7:usage}\",",
+			"\tcooldown: ${8:0},",
+			"\tuserType: \"${9:all}\",",
+			"\tneededPerms: [${10:\"PERMISSION\"}],",
+			"\tpponly: ${11:false},",
+			"\tremoveExp: ${12:false},",
+			"\tneedVip: ${13:false},",
+			"\tasync execute(message, args, client) {",
+			"\t\t$14",
+			"\t}",
+			"}"
+		],
+		"description": "Make a nodeJS pixel pizza command"
+	}
+}
