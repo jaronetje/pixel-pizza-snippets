@@ -2,7 +2,7 @@
 	"name": "pixel-pizza-snippets",
 	"displayName": "Pixel Pizza Snippets",
 	"description": "Snippets for making commands of the Pixel Pizza bot",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.51.0"
 	},
