@@ -6,9 +6,11 @@
 	"engines": {
 		"vscode": "^1.51.0"
 	},
+	"icon": "images/logo.png",
+	"publisher": "PixelPizza",	
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jaronetje/pixel-pizza-snippets.git"
+		"url": "https://github.com/jaronetje/pixel-pizza-snippets"
 	},
 	"homepage": "https://github.com/jaronetje/pixel-pizza-snippets#readme",
 	"categories": [
