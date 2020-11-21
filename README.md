@@ -23,4 +23,9 @@ Initial release of Pixel Pizza snippets
 * added _ppcom_ and _ppcommand_ snippet for javascript
 * added _ppcom_ and _ppcommand_ snippet for typescript
 
+### 1.1.0
+
+* removed needVip property from command snippet for javascript
+* removed needVip property from command snippet for typescript
+
 **Enjoy!**
