@@ -26,5 +26,37 @@
 			"module.exports = command;"
 		],
 		"description": "Make a nodeJS pixel pizza command"
+	},
+	"Pixel Pizza Embed Options": {
+		"scope": "typescript",
+		"prefix": ["ppembed", "ppembedoptions"],
+		"body": [
+			"{",
+			"\tcolor: \"${1:color}\",",
+			"\ttitle: \"${2:title}\",",
+			"\turl: \"${3:url}\",",
+			"\tauthor: {",
+			"\t\tname: \"${4:name}\",",
+			"\t\ticon: \"${5:icon}\",",
+			"\t\turl: \"${6:url}\",",
+			"\t},",
+			"\tdescription: \"${7:description}\",",
+			"\tthumbnail: \"${8:thumbnail}\",",
+			"\tfields: [",
+			"\t\t{",
+			"\t\t\tname: \"${9:name}\",",
+			"\t\t\tvalue: \"${10:value}\",",
+			"\t\t\tinline: ${11:false},",
+			"\t\t}${12:,}",
+			"\t],",
+			"\timage: \"${13:image}\",",
+			"\ttimestamp: ${14:false},",
+			"\tfooter: {",
+			"\t\ttext: \"${15:text}\",",
+			"\t\ticon: \"${16:icon}\"",
+			"\t}",
+			"}"
+		],
+		"description": "Add embed options to current cursor position"
 	}
 }

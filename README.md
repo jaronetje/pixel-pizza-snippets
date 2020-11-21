@@ -17,8 +17,8 @@ You will need to have a basic discord.js bot with a command handler
 ## Release Notes
 
 ### 1.0.0
-
 Initial release of Pixel Pizza snippets 
+
 * added snippets command
 * added _ppcom_ and _ppcommand_ snippet for javascript
 * added _ppcom_ and _ppcommand_ snippet for typescript
@@ -27,5 +27,10 @@ Initial release of Pixel Pizza snippets
 
 * removed needVip property from command snippet for javascript
 * removed needVip property from command snippet for typescript
+
+### 1.2.0
+
+* added _ppembed_ and _ppembedoptions_ snippet for javascript
+* added _ppembed_ and _ppembedoptions_ snippet for typescript
 
 **Enjoy!**
