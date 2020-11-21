@@ -5,7 +5,7 @@
 		"body": [
 			"import {Message, Client} from 'discord.js';",
 			"",
-			"const command: {name: string, description: string, aliases: Array<string>, args: boolean, minArgs: number, maxArgs: number, usage: string, cooldown: number, userType: \"all\" | \"worker\" | \"teacher\" | \"staff\" | \"director\", neededPerms: Array<string>, pponly: boolean, removeExp: boolean, needVip: boolean, execute(message: Message, args: Array<string>, client: Client): Promise<any>} = {",
+			"const command: {name: string, description: string, aliases: Array<string>, args: boolean, minArgs: number, maxArgs: number, usage: string, cooldown: number, userType: \"all\" | \"worker\" | \"teacher\" | \"staff\" | \"director\", neededPerms: Array<string>, pponly: boolean, removeExp: boolean, execute(message: Message, args: Array<string>, client: Client): Promise<any>} = {",
 			"\tname: \"${1:name}\",",
 			"\tdescription: \"${2:description}\",",
 			"\taliases: [${3:\"alias\"}],",
@@ -18,7 +18,6 @@
 			"\tneededPerms: [${10:\"PERMISSION\"}],",
 			"\tpponly: ${11:false},",
 			"\tremoveExp: ${12:false},",
-			"\tneedVip: ${13:false},",
 			"\texecute: async(message, args, client) => {",
 			"\t\t$14",
 			"\t}",

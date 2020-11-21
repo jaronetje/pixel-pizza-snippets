@@ -16,7 +16,6 @@
 			"\tneededPerms: [${10:\"PERMISSION\"}],",
 			"\tpponly: ${11:false},",
 			"\tremoveExp: ${12:false},",
-			"\tneedVip: ${13:false},",
 			"\tasync execute(message, args, client) {",
 			"\t\t$14",
 			"\t}",
