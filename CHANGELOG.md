@@ -13,3 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - snippets command
 - ppcom and ppcommand snippet for javascript
 - ppcom and ppcommand snippet for typescript
+
+## [1.1.0] - 2020-11-21
+### Removed
+- needVip command property for javascript
+- needVip command property for typescript
