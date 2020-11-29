@@ -45,4 +45,10 @@ Initial release of Pixel Pizza snippets
 ### 1.4.0
 nothing happend, just updated by accident
 
+### 1.4.1
+accidently changed package version myself
+
+### 1.4.2
+* changed year to four characters
+
 **Enjoy!**

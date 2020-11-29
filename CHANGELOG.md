@@ -30,3 +30,13 @@ Initial Release
 - ppcon and ppconstructor snippet for java
 - ppenum snippet for java
 - ppinterface snippet for java
+
+## [1.4.0] - 2020-11-29
+I updated by accident
+
+## [1.4.1] - 2020-11-29
+I changed package.json version by accident
+
+## [1.4.2] - 2020-11-29
+### Changed
+- years are now four characters
