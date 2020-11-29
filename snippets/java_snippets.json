@@ -13,8 +13,8 @@
             " * @version ${7:1.0}",
             " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
             " */",
-            "${10:public} class ${11:classname} $12{",
-            "\t$13",
+            "${10:public} class ${11:classname} {",
+            "\t$12",
             "}"
         ],
         "description": "Make a java class"
@@ -25,6 +25,7 @@
         "body": [
             "/**",
             " * ${1:description}",
+            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
             " */",
             "${2:public} ${3:type} ${4:name}"
         ],
@@ -78,8 +79,8 @@
             " * @version ${7:1.0}",
             " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
             " */",
-            "${10:public} enum ${11:classname} $12{",
-            "\t$13",
+            "${10:public} enum ${11:classname} {",
+            "\t$12",
             "}"
         ],
         "description": "Make a java enum"
@@ -98,8 +99,8 @@
             " * @version ${7:1.0}",
             " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
             " */",
-            "${10:public} inteface ${11:classname} $12{",
-            "\t$13",
+            "${10:public} inteface ${11:classname} {",
+            "\t$12",
             "}"
         ],
         "description": "Make a java interface"

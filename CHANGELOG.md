@@ -40,3 +40,10 @@ I changed package.json version by accident
 ## [1.4.2] - 2020-11-29
 ### Changed
 - years are now four characters
+
+## [1.4.3] - 2020-11-29
+### Added
+- Added since to class values for java
+
+### Changed
+- removed unneeded snippet positions for java
