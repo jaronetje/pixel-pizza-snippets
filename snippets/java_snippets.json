@@ -1,0 +1,107 @@
+{
+    "Pixel Pizza class Java": {
+        "scope": "java",
+        "prefix": "ppclass",
+        "body": [
+            "package ${1:com.pixelpizza.bot};",
+            "",
+            "/**",
+            " * <h3>${2:title}</h3>",
+            " * <p>${3:description}</p>",
+            " * ",
+            " * @since ${4:YY}-${5:mm}-${6:dd}",
+            " * @version ${7:1.0}",
+            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
+            " */",
+            "${10:public} class ${11:classname} $12{",
+            "\t$13",
+            "}"
+        ],
+        "description": "Make a java class"
+    },
+    "Pixel Pizza class value Java": {
+        "scope": "java",
+        "prefix": ["ppclassvalue", "ppclassval"],
+        "body": [
+            "/**",
+            " * ${1:description}",
+            " */",
+            "${2:public} ${3:type} ${4:name}"
+        ],
+        "description": "Make a value for a java class"
+    },
+    "Pixel Pizza class method Java": {
+        "scope": "java",
+        "prefix": [
+            "ppclassmethod", 
+            "ppclassfunc", 
+            "ppclassfunction"
+        ],
+        "body": [
+            "/**",
+            " * <h4>${1:title}</h4>",
+            " * <p>${2:description}</p>$3",
+            " * @since ${4:YY}-${5:mm}-${6:dd}",
+            " */",
+            "${7:public} ${8:return} ${9:name}(${10:params}) $11{",
+            "\t$12",
+            "}"
+        ],
+        "description": "Make a method for a java class"
+    },
+    "Pixel Pizza class constructor Java": {
+        "scope": "java",
+        "prefix": ["ppcon", "ppconstructor"],
+        "body": [
+            "/**",
+            " * <h4>${1:title}</h4>",
+            " * <p>${2:description}</p>$3",
+            " * @since ${4:YY}-${5:mm}-${6:dd}",
+            " */",
+            "${7:public} ${8:classname}(${9:params}) $10{",
+            "\t$11",
+            "}"
+        ],
+        "description": "Make a constructor for a java class"
+    },
+    "Pixel Pizza enum Java": {
+        "scope": "java",
+        "prefix": "ppenum",
+        "body": [
+            "package ${1:com.pixelpizza.bot};",
+            "",
+            "/**",
+            " * <h3>${2:title}</h3>",
+            " * <p>${3:description}</p>",
+            " * ",
+            " * @since ${4:YY}-${5:mm}-${6:dd}",
+            " * @version ${7:1.0}",
+            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
+            " */",
+            "${10:public} enum ${11:classname} $12{",
+            "\t$13",
+            "}"
+        ],
+        "description": "Make a java enum"
+    },
+    "Pixel Pizza interface Java": {
+        "scope": "java",
+        "prefix": "ppinterface",
+        "body": [
+            "package ${1:com.pixelpizza.bot};",
+            "",
+            "/**",
+            " * <h3>${2:title}</h3>",
+            " * <p>${3:description}</p>",
+            " * ",
+            " * @since ${4:YY}-${5:mm}-${6:dd}",
+            " * @version ${7:1.0}",
+            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
+            " */",
+            "${10:public} inteface ${11:classname} $12{",
+            "\t$13",
+            "}"
+        ],
+        "description": "Make a java interface"
+    }
+}

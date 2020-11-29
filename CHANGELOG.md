@@ -21,3 +21,12 @@ Initial Release
 ### Added
 - ppembed and ppembedoptions snippet for javascript
 - ppembed and ppembedoptions snippet for typescript
+
+## [1.3.0] - 2020-11-29
+### Added
+- ppclass snippet for java
+- ppclassvalue and ppclassval snippet for java
+- ppclassmethod, ppclassfunc and ppclassfunction snippet for java
+- ppcon and ppconstructor snippet for java
+- ppenum snippet for java
+- ppinterface snippet for java

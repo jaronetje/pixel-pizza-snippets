@@ -2,7 +2,7 @@
 	"name": "pixel-pizza-snippets",
 	"displayName": "Pixel Pizza Snippets",
 	"description": "Snippets for making commands of the Pixel Pizza bot",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"engines": {
 		"vscode": "^1.51.0"
 	},
@@ -35,6 +35,10 @@
 			{
 				"language": "typescript",
 				"path": "./snippets/ts_snippets.json"
+			},
+			{
+				"language": "java",
+				"path": "./snippets/java_snippets.json"
 			}
 		]
 	},

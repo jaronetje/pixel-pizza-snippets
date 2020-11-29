@@ -2,7 +2,7 @@
 
 ![Pixel Pizza Logo](images/logo.png)
 
-**Note:** This extension is generally used for Pixel Pizza bot developers, but can be edited to work for your own bot
+**Note:** This extension is generally used for Pixel Pizza bot developers, but the code can be edited afterwards to work for your own bot
 
 ## Features
 
@@ -32,5 +32,14 @@ Initial release of Pixel Pizza snippets
 
 * added _ppembed_ and _ppembedoptions_ snippet for javascript
 * added _ppembed_ and _ppembedoptions_ snippet for typescript
+
+### 1.3.0
+
+* added _ppclass_ snippet for java
+* added _ppclassvalue_ and _ppclassval_ snippet for java
+* added _ppclassmethod_, _ppclassfunc_ and _ppclassfunction_ snippet for java
+* added _ppcon_, _ppconstructor_ snippet for java
+* added _ppenum_ snippet for java
+* added _ppinterface_ snippet for java
 
 **Enjoy!**

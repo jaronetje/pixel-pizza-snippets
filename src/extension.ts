@@ -6,7 +6,7 @@ import * as vscode from 'vscode';
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(vscode.commands.registerCommand("pixel-pizza-snippets.snippets", () => {
-		vscode.window.showInformationMessage("you can use ppcom or ppcommand in javascript and typescript files");
+		vscode.window.showInformationMessage("You can look at the README for the snippets");
 	}));
 }
 
