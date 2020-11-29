@@ -25,9 +25,9 @@
         "body": [
             "/**",
             " * ${1:description}",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
+            " * @since ${2:YYYY}-${3:mm}-${4:dd}",
             " */",
-            "${2:public} ${3:type} ${4:name}"
+            "${5:public} ${6:type} ${7:name}"
         ],
         "description": "Make a value for a java class"
     },

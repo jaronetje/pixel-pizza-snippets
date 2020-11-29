@@ -17,15 +17,6 @@ You will need to have a basic discord bot for Javascript or Java with a command 
 ## Newest release Notes
 Look at the changelog for older versions
 
-### 1.3.0
-
-* Added _ppclass_ snippet for java
-* Added _ppclassvalue_ and _ppclassval_ snippet for java
-* Added _ppclassmethod_, _ppclassfunc_ and _ppclassfunction_ snippet for java
-* Added _ppcon_, _ppconstructor_ snippet for java
-* Added _ppenum_ snippet for java
-* Added _ppinterface_ snippet for java
-
 ### 1.4.0
 Nothing happend, just updated by accident
 
@@ -38,5 +29,8 @@ Accidently changed package version myself
 ### 1.4.3
 * Added since to class variables for java
 * Removed unneeded snippet positions for java
+
+### 1.4.4
+* Fixed the order of class values snippet for java
 
 **Enjoy!**

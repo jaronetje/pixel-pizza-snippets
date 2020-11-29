@@ -43,7 +43,11 @@ I changed package.json version by accident
 
 ## [1.4.3] - 2020-11-29
 ### Added
-- Added since to class values for java
+- since to class values for java
+
+## [1.4.4] - 2020-11-29
+### Fixed
+- the order of class values snippet for java
 
 ### Changed
 - removed unneeded snippet positions for java
