@@ -17,9 +17,6 @@ You will need to have a basic discord bot for Javascript or Java with a command 
 ## Newest release Notes
 Look at the changelog for older versions
 
-### 1.4.0
-Nothing happend, just updated by accident
-
 ### 1.4.1
 Accidently changed package version myself
 
@@ -32,5 +29,39 @@ Accidently changed package version myself
 
 ### 1.4.4
 * Fixed the order of class values snippet for java
+
+### 1.5.0
+#### Java
+* Added _const_ and _constant_ snippet
+* Added @version check for numbers and dots only
+* Added automatic captialize of class, enum and interface name
+* Changed _ppclass_ to _class_
+* Changed _ppclassvalue_ and _ppclassval_ to _variable_ and _var_
+* Changed _ppclassmethod_, _ppclassfunction_ and _ppclassfunc_ to method
+* Changed _ppcon_ and _ppconstructor_ to _con_ and _constructor_
+* Changed _ppenum_ to _enum_
+* Changed _ppinterface_ to _interface_
+* Changed @since default value to Y-M-D with optional H:M:S
+
+#### JavaScript
+* Added default discord.js require to cmd snippet
+* Added optional pixel-pizza require to cmd snippet
+* Added JSDoc comments to execute in cmd snippet
+* Added boolean true, false choice
+* Added cmd usertype choice with types
+* Changed ppcommand and ppcom to command and cmd
+* Changed ppembed and ppembedoptions to embed and embedoptions
+* Changed cmd neededPerms to uppercase
+
+#### TypeScript
+* Added default discord.js require to cmd snippet
+* Added optional pixel-pizza require to cmd snippet
+* Added JSDoc comments to execute in cmd snippet
+* Added boolean true, false choice
+* Added cmd usertype choice with types
+* Added cmd client PPClient and discord client choice
+* Changed ppcommand and ppcom to command and cmd
+* Changed ppembed and ppembedoptions to embed and embedoptions
+* Changed cmd neededPerms to uppercase
 
 **Enjoy!**

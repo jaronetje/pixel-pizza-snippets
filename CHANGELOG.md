@@ -51,3 +51,46 @@ I changed package.json version by accident
 
 ### Changed
 - removed unneeded snippet positions for java
+
+## [1.5.0] - 2020-11-29
+### Java
+#### Added
+- const and constant snippet
+- @version check for numbers and dots only
+- automatic captialize of class, enum and interface name
+
+#### Changed
+- ppclass to class
+- ppclassvalue and ppclassval to variable and var
+- ppclassmethod, ppclassfunction and ppclassfunc to method
+- ppcon and ppconstructor to con and constructor
+- ppenum to enum
+- ppinterface to interface
+- @since default value to Y-M-D with optional H:M:S
+
+### JavaScript
+#### Added
+- default discord.js require to cmd snippet
+- optional pixel-pizza require to cmd snippet
+- JSDoc comments to execute in cmd snippet
+- boolean true, false choice
+- cmd usertype choice with types
+
+#### Changed
+- ppcommand and ppcom to command and cmd
+- ppembed and ppembedoptions to embed and embedoptions
+- cmd neededPerms to uppercase
+
+### TypeScript
+#### Added
+- default discord.js require to cmd snippet
+- optional pixel-pizza require to cmd snippet
+- JSDoc comments to execute in cmd snippet
+- boolean true, false choice
+- cmd usertype choice with types
+- cmd client PPClient and discord client choice
+
+#### Changed
+- ppcommand and ppcom to command and cmd
+- ppembed and ppembedoptions to embed and embedoptions
+- cmd neededPerms to uppercase

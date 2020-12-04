@@ -1,108 +1,122 @@
 {
-    "Pixel Pizza class Java": {
+    "Pixel Pizza class": {
         "scope": "java",
-        "prefix": "ppclass",
+        "prefix": "class",
         "body": [
             "package ${1:com.pixelpizza.bot};",
             "",
-            "/**",
+            "$BLOCK_COMMENT_START*",
             " * <h3>${2:title}</h3>",
             " * <p>${3:description}</p>",
             " * ",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
-            " * @version ${7:1.0}",
-            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
-            " */",
-            "${10:public} class ${11:classname} {",
-            "\t$12",
-            "}"
-        ],
-        "description": "Make a java class"
-    },
-    "Pixel Pizza class value Java": {
-        "scope": "java",
-        "prefix": ["ppclassvalue", "ppclassval"],
-        "body": [
-            "/**",
-            " * ${1:description}",
-            " * @since ${2:YYYY}-${3:mm}-${4:dd}",
-            " */",
-            "${5:public} ${6:type} ${7:name}"
-        ],
-        "description": "Make a value for a java class"
-    },
-    "Pixel Pizza class method Java": {
-        "scope": "java",
-        "prefix": [
-            "ppclassmethod", 
-            "ppclassfunc", 
-            "ppclassfunction"
-        ],
-        "body": [
-            "/**",
-            " * <h4>${1:title}</h4>",
-            " * <p>${2:description}</p>$3",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
-            " */",
-            "${7:public} ${8:return} ${9:name}(${10:params}) $11{",
-            "\t$12",
-            "}"
-        ],
-        "description": "Make a method for a java class"
-    },
-    "Pixel Pizza class constructor Java": {
-        "scope": "java",
-        "prefix": ["ppcon", "ppconstructor"],
-        "body": [
-            "/**",
-            " * <h4>${1:title}</h4>",
-            " * <p>${2:description}</p>$3",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
-            " */",
-            "${7:public} ${8:classname}(${9:params}) $10{",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${4: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " * @version ${5/[^0-9^.]//g}",
+            " * @author ${6:Pixel Pizza} - <i>${7:name}</i>",
+            " $BLOCK_COMMENT_END",
+            "${8:public} class ${9/^[^A-Z]/${0:/upcase}/} $10{",
             "\t$11",
             "}"
         ],
-        "description": "Make a constructor for a java class"
+        "description":"Make a class"
     },
-    "Pixel Pizza enum Java": {
+    "Pixel Pizza variable": {
         "scope": "java",
-        "prefix": "ppenum",
+        "prefix": [
+            "var",
+            "variable"
+        ],
+        "body": [
+            "$BLOCK_COMMENT_START*",
+            " * ${1:description}",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${2: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " $BLOCK_COMMENT_END",
+            "${3:public} ${4:type} ${5:name}${6: = };"
+        ],
+        "description": "Make a value for a class"
+    },
+    "Pixel Pizza constant": {
+        "scope": "java",
+        "prefix": [
+            "const",
+            "constant"
+        ],
+        "body": [
+            "$BLOCK_COMMENT_START*",
+            " * ${1:description}",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${2: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " $BLOCK_COMMENT_END",
+            "${3:public} final ${4:type} ${5:name}${6: = };"
+        ],
+        "description": "Make a constant"
+    },
+    "Pixel Pizza method": {
+        "scope": "java",
+        "prefix": "method",
+        "body": [
+            "$BLOCK_COMMENT_START*",
+            " * <h4>${1:title}</h4>",
+            " * <p>${2:description}</p>$3",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${4: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " $BLOCK_COMMENT_END",
+            "${5:public} ${6:return} ${7:name}(${8:params}) $9{",
+            "\t$10",
+            "}" 
+        ],
+        "description": "Make a method for a class"
+    },
+    "Pixel Pizza constructor": {
+        "scope": "java",
+        "prefix": ["con", "constructor"],
+        "body": [
+            "$BLOCK_COMMENT_START*",
+            " * <h4>${1:title}</h4>",
+            " * <p>${2:description}</p>$3",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${4: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " $BLOCK_COMMENT_END",
+            "${5:public} ${6:classname}(${7:params}) $8{",
+            "\t$9",
+            "}"
+        ],
+        "description": "Make a constructor for a class"
+    },
+    "Pixel Pizza enum": {
+        "scope": "java",
+        "prefix": "enum",
         "body": [
             "package ${1:com.pixelpizza.bot};",
             "",
-            "/**",
+            "$BLOCK_COMMENT_START*",
             " * <h3>${2:title}</h3>",
             " * <p>${3:description}</p>",
             " * ",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
-            " * @version ${7:1.0}",
-            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
-            " */",
-            "${10:public} enum ${11:classname} {",
-            "\t$12",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${4: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " * @version ${5/[^0-9^.]//g}",
+            " * @author ${6:Pixel Pizza} - <i>${7:name}</i>",
+            " $BLOCK_COMMENT_END",
+            "${8:public} enum ${9/^[^A-Z]/${0:/upcase}/} $10{",
+            "\t$11",
             "}"
         ],
-        "description": "Make a java enum"
+        "description": "Make an enum"
     },
-    "Pixel Pizza interface Java": {
+    "Pixel Pizza interface": {
         "scope": "java",
-        "prefix": "ppinterface",
+        "prefix": "interface",
         "body": [
             "package ${1:com.pixelpizza.bot};",
             "",
-            "/**",
+            "$BLOCK_COMMENT_START*",
             " * <h3>${2:title}</h3>",
             " * <p>${3:description}</p>",
             " * ",
-            " * @since ${4:YYYY}-${5:mm}-${6:dd}",
-            " * @version ${7:1.0}",
-            " * @author ${8:Pixel Pizza} - <i>${9:name}</i>",
-            " */",
-            "${10:public} inteface ${11:classname} {",
-            "\t$12",
+            " * @since $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE${4: $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND}",
+            " * @version ${5/[^0-9^.]//g}",
+            " * @author ${6:Pixel Pizza} - <i>${7:name}</i>",
+            " $BLOCK_COMMENT_END",
+            "${8:public} interface ${9/^[^A-Z]/${0:/upcase}/} $10{",
+            "\t$11",
             "}"
         ],
-        "description": "Make a java interface"
+        "description": "Make an interface"
     }
 }
