@@ -6,9 +6,9 @@
 
 ## Features
 
-You can use ppcom or ppcommand to make a command
+You can use command or cmd to make a command
 
-![ppcom animation](images/ppcom.gif)
+![command animation](images/command.gif)
 
 ## Requirements
 
@@ -16,9 +16,6 @@ You will need to have a basic discord bot for Javascript or Java with a command 
 
 ## Newest release Notes
 Look at the changelog for older versions
-
-### 1.4.1
-Accidently changed package version myself
 
 ### 1.4.2
 * Changed year to four characters
@@ -63,5 +60,15 @@ Accidently changed package version myself
 * Changed ppcommand and ppcom to command and cmd
 * Changed ppembed and ppembedoptions to embed and embedoptions
 * Changed cmd neededPerms to uppercase
+
+### 1.6.0
+### JavaScript
+* Added options parameter for execute function of commands
+
+### TypeScript
+* Added options parameter for execute function of commands for typescript
+
+### Python
+* Added event snippet for python
 
 **Enjoy!**

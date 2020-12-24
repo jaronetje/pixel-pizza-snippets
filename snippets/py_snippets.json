@@ -1,0 +1,12 @@
+{
+    "Pixel Pizza Client Event": {
+        "scope": "python",
+        "prefix": "event",
+        "body": [
+            "@${1:client}.event",
+            "${2|async def,def|} on_${3:event_name}(${4:parameters}) -> None:",
+            "\t\"\"\"${5:description}\"\"\""
+        ],
+        "description": "Make a Pixel Pizza event for the client"
+    }
+}

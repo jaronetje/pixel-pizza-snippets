@@ -94,3 +94,16 @@ I changed package.json version by accident
 - ppcommand and ppcom to command and cmd
 - ppembed and ppembedoptions to embed and embedoptions
 - cmd neededPerms to uppercase
+
+## [1.6.0] - 2020-12-24
+### JavaScript
+#### Added
+- options parameter for execute function of commands
+
+### TypeScript
+#### Added
+- options parameter for execute function of commands
+
+### Python
+#### Added
+- event snippet for python
