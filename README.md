@@ -2,7 +2,7 @@
 
 ![Pixel Pizza Logo](images/logo.png)
 
-**Note:** This extension is generally used for Pixel Pizza bot developers, but the code can be edited afterwards to work for your own bot
+**Note:** This extension is outdated for Pixel Pizza 2
 
 ## Features
 
