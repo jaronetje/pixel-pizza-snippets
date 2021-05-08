@@ -107,3 +107,20 @@ I changed package.json version by accident
 ### Python
 #### Added
 - event snippet for python
+
+## [2.0.0] - 2021-05-08
+### JavaScript
+#### Changed
+- snippet descriptions
+
+### TypeScript
+#### Added
+- event snippet
+- column snippet
+- model snippet
+
+#### Removed
+- embed snippet
+
+#### Changed
+- command snippet (now works for Pixel Pizza 2)

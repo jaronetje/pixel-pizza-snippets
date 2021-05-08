@@ -40,7 +40,7 @@
 			"\t}",
 			"}"
 		],
-		"description": "Make a pixel pizza command"
+		"description": "Make a pixel pizza 1 command"
 	},
 	"Pixel Pizza embed options": {
 		"scope": "javascript",
@@ -75,6 +75,6 @@
 			"\t}",
 			"}"
 		],
-		"description": "Add embed options to current cursor position"
+		"description": "Add embed options to current caret position"
 	}
 }

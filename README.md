@@ -2,23 +2,21 @@
 
 ![Pixel Pizza Logo](images/logo.png)
 
-**Note:** This extension is outdated for Pixel Pizza 2
-
 ## Features
 
 You can use command or cmd to make a command
+
+### Note
+Animation is outdated and will be updated soon
 
 ![command animation](images/command.gif)
 
 ## Requirements
 
-You will need to have a basic discord bot for Javascript or Java with a command handler
+You will need to have a basic discord bot for Javascript, Typescript (Look at https://github.com/JTTechnic/basic-slash-command-bot for an example) or Java with a command handler
 
 ## Newest release Notes
 Look at the changelog for older versions
-
-### 1.4.2
-* Changed year to four characters
 
 ### 1.4.3
 * Added since to class variables for java
@@ -62,13 +60,24 @@ Look at the changelog for older versions
 * Changed cmd neededPerms to uppercase
 
 ### 1.6.0
-### JavaScript
+#### JavaScript
 * Added options parameter for execute function of commands
 
-### TypeScript
+#### TypeScript
 * Added options parameter for execute function of commands for typescript
 
-### Python
+#### Python
 * Added event snippet for python
+
+### 2.0.0
+#### JavaScript
+* Updated snippet descriptions
+
+#### Typescript
+* Updated command snippet to work for Pixel Pizza 2
+* Removed embed snippet
+* Added event snippet
+* Added column snippet
+* Added model snippet
 
 **Enjoy!**
