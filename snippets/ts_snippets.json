@@ -6,13 +6,13 @@
 			"cmd"
 		],
 		"body": [
-			"import {Command, CustomClient} from \"../../api\"",
+			"import {Command, CustomClient} from \"../../api\";",
 			"",
 			"module.exports = class ${1:CommandName}Command extends Command {",
 			"\tpublic constructor(client: CustomClient) {",
 			"\t\tsuper(client, {",
 			"\t\t\tname: ${2:commandname},",
-			"\t\t\tdescription: ${3:description}",
+			"\t\t\tdescription: ${3:description},",
 			"\t\t\tdefaultPermission: ${4|true,false|}",
 			"\t\t}$5);",
 			"\t}",
